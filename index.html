@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://images.unsplash.com/photo-1524169358666-79f22534bc6e?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            background: #0c0c0c(249, 90, 201, 0.5);
+            padding: 10px;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color:  #f664ea;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .skills h2 {
+            color: #FF6F61;
+        }
+
+        a {
+            color: #FF6F61;
+        }
+
+        #contact {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        #contact input, #contact textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px solid #FF6F61;
+            border-radius: 5px;
+        }
+
+        #contact input[type="submit"] {
+            background-color: #FF6F61;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #about img {
+            max-width: 20%;
+            height: auto;
+        }
+
+        
+        #about h2 {
+            color: #f664ea; 
+        }
+
+        #education h2 {
+            color: #f664ea; 
+        }
+
+        #skills h2 {
+            color: #f664ea; 
+        }
+
+        #project h2 {
+            color: #f664ea; 
+        }
+
+        #certifications h2 {
+            color: #f664ea; 
+        }
+
+        #contact h2 {
+            color: #f664ea; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="static\WhatsApp Image 2023-10-16 at 16.15.11_899226e8.jpg" alt="VEDHAPRIYAKOPPULA">
+        <p>Hello, I'm vedhapriya koppula, currently pursuing B.Tech second year at Kakinada Institute Of Engineering And Technology-Womens College. My field of study is Computer Science and Engineering with a specialization of Artificial Intelligence and Data Science. Here I'm a web developer. And my goal is to get a good job in a reputed company.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>sasi EM school</h3>
+                <p>Class 10th</p>
+                <p>Year of Passing: 2019-2020</p>
+            </li>
+            <li>
+                <h3>sasi jr  College</h3>
+                <p>Intermediate</p>
+                <p>Year of Passing 2020-2022</p>
+            </li>
+            <li>
+                <h3>Kakinada Institute of Engineering and Technology for Women (KIETW)</h3>
+                <p>Computer Science and Artificial Intelligence (CAI)</p>
+                <p>2nd Year</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>HTML, CSS</li>
+            <li>C Language, Python</li>
+        </ul>
+    </section>
+
+    <section id="project">
+        <h2>My Project</h2>
+        <div id="portfolio">
+            <h3>This is our team project</h3>
+            <p>Here Our project name is F&W (Fitness and wellness) where we created a website to help people to take exercises according to their weight, height. So that people can be fit by following the given diet and exercises.</p>
+            <button type="button" class="btn btn2"><a href="https://www.linkedin.com/posts/vedhapriya-koppula-4902a6288_hello-everyone-today-i-am-here-to-introduce-activity-7118483481617141760-4L6D?utm_source=share&utm_medium=member_android" style="text-decoration: none;color: rgb(249, 98, 98);">Project</a></button>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>
+                <h3>Introduction to Python Certification</h3>
+                <p>Received a certification in introduction to Python from Edyst.</p>
+                <button type="button" class="btn btn2"><a href="static\python cer.jpg" style="text-decoration: none;color: rgb(249, 98, 98);">View</a></button>
+            </li>
+            <li>
+                <h3>HTML & CSS Certification</h3>
+                <p>Awarded a certification in HTML and CSS for completing a course for Beginners.</p>
+                <button type="button" class="btn btn2"><a href="static\html and css.jpg" style="text-decoration: none;color: rgb(249, 98, 98);">View</a></button>
+            </li>
+            <li>
+                <h3>CSS Certification</h3>
+                <p>Awarded a certification in CSS for completing a course for Beginners.</p>
+                <button type="button" class="btn btn2"><a href="static\css.jpg" style="text-decoration: none;color: rgb(249, 98, 98);">View</a></button>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 VEDHAPRIYAKOPPULA</p>
+    </footer>
+</body>
+</html>
